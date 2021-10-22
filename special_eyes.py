@@ -4,6 +4,7 @@ import math
 post_url = "https://northcentralus.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=true&recognitionModel=recognition_04&returnRecognitionModel=false&detectionModel=detection_03&faceIdTimeToLive=86400"
 
 key_header = "Ocp-Apim-Subscription-Key"
+key = ""
 
 source_image = "cad-20080602-358b1.x29067.jpg"
 img_bytes = open(source_image, "rb").read()
